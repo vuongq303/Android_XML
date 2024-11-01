@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Thêm phiếu mượn"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Mã phiếu mượn" />
+
+    <EditText
+        android:id="@+id/dialogThem_edt_mapm_Phieumuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_margin="10sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Tên thành viên" />
+
+    <Spinner
+        android:id="@+id/dialogThem_spinner_tentv_phieumuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Tên sách" />
+
+    <Spinner
+        android:id="@+id/dialogThem_tensach_phieumuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp" />
+
+    <TextView
+        android:id="@+id/dialogThem_txt_ngay_phieumuon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Ngày thuê" />
+
+    <TextView
+        android:id="@+id/dialogThem_txt_tienthue_phieumuon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Tiền thuê" />
+
+    <CheckBox
+        android:id="@+id/dialogThem_chk_trangthai_phieumuon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Trả sách" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/bo_goc"
+        android:text="Thêm phiếu mượn"
+        android:id="@+id/dialogThem_btn_thempm"/>
+</LinearLayout>

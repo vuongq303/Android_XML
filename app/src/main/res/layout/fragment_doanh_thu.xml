@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentDoanhThu">
+
+    <Button
+        android:id="@+id/btn_tungay_doanhthu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:background="@drawable/bo_goc"
+        android:text="Từ ngày" />
+
+    <Button
+        android:id="@+id/btn_denngay_doanhthu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_tungay_doanhthu"
+        android:layout_margin="15sp"
+        android:background="@drawable/bo_goc"
+        android:text="Đến ngày" />
+
+    <TextView
+        android:id="@+id/txt_tungay_doanhthu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="15sp"
+        android:layout_marginBottom="15sp"
+        android:layout_toRightOf="@id/btn_tungay_doanhthu"
+        android:text=""
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txt_denngay_doanhthu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_tungay_doanhthu"
+        android:layout_margin="15sp"
+        android:layout_toRightOf="@id/btn_denngay_doanhthu"
+        android:text=""
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txt_ketqua_doanhthu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_denngay_doanhthu"
+        android:layout_margin="15sp"
+        android:layout_toRightOf="@id/btn_ketqua_doanhthu"
+        android:text="0vnd"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_ketqua_doanhthu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_denngay_doanhthu"
+        android:layout_margin="15sp"
+        android:background="@drawable/bo_goc"
+        android:text="Doanh thu" />
+</RelativeLayout>
